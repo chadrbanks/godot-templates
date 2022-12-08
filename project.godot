@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="Open Gles 2 Template"
+config/name="Godot Template"
 config/icon="res://icon.png"
 
 [gui]

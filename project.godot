@@ -8,10 +8,22 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node",
+"class": "IdlePlayer",
+"language": "GDScript",
+"path": "res://scripts/IdlePlayer.gd"
+} ]
+_global_script_class_icons={
+"IdlePlayer": ""
+}
+
 [application]
 
 config/name="Godot Template"
-config/icon="res://icon.png"
+config/description="C4 template project."
+run/main_scene="res://scenes/boot.tscn"
+config/icon="res://art/icon.png"
 
 [gui]
 
